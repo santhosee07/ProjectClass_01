@@ -40,13 +40,12 @@ public class DataDriven {
 			else {
 				double num = cell.getNumericCellValue();
 				long l = (long)num;
-				String number = String.valueOf(1);
+				String number = String.valueOf(l);
 				System.out.println(number);
 			}
 		}
-	
-		
-				
+
+				System.out.println("add");
 		}
 		
 	
