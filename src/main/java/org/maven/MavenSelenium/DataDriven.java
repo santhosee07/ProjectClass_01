@@ -29,6 +29,7 @@ public class DataDriven {
 		System.out.println(cell);
 		int type= cell.getCellType();
 		System.out.println(type);
+		System.out.println("santhu");
 		if(type==0) {
 			if(DateUtil.isCellDateFormatted(cell)) {
 				Date d = cell.getDateCellValue();
@@ -39,10 +40,11 @@ public class DataDriven {
 			else {
 				double num = cell.getNumericCellValue();
 				long l = (long)num;
-				String number = String.valueOf(1);
+				String number = String.valueOf(l);
 				System.out.println(number);
 			}
 		}
+
 				System.out.println("add");
 		}
 		
